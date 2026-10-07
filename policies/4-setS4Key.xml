@@ -1,0 +1,9 @@
+<AssignMessage async="false" continueOnError="false" enabled="true" xmlns="http://www.sap.com/apimgmt">
+    <Set>
+        <Headers>
+            <Header name="APIKey">{private.s4.apikey}</Header>
+        </Headers>
+    </Set>
+    <IgnoreUnresolvedVariables>false</IgnoreUnresolvedVariables>
+    <AssignTo createNew="false" type="request"/>
+</AssignMessage>

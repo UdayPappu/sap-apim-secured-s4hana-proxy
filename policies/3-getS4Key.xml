@@ -1,0 +1,8 @@
+<KeyValueMapOperations mapIdentifier="S4SandboxCredentials" async="true" continueOnError="false" enabled="true" xmlns="http://www.sap.com/apimgmt">
+    <Get assignTo="private.s4.apikey" index="1">
+        <Key>
+            <Parameter>apikey</Parameter>
+        </Key>
+    </Get>
+    <Scope>environment</Scope>
+</KeyValueMapOperations>
